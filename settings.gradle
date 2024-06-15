@@ -1,10 +1,7 @@
-include ':spring-cloud:config-service'
 include ':microservice:user-service'
 include ':microservice:department-service'
 include ':microservice:post-service'
-include ':spring-stream:kafkaStream'
 
-include ':spring-cloud:DEVKH-AUTHENTICATION'
-
+include ':spring-cloud:config-service'
 include ':spring-cloud:api-gateway'
 include ':spring-cloud:server-registry'
